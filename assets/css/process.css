@@ -1,0 +1,258 @@
+.processHeader h1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+
+.mainTextProcess h1 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.mainTextProcess h2 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+
+.mainTextProcess h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #8DBA38;
+}
+
+.mainTextProcess p {
+    font-size: 14.6px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #7D7D7D;
+}
+
+.lowereasyText {
+    margin-right: 10%;
+}
+
+.btnSecondary2 {
+    padding: 10px 30px 10px 30px !important;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color: var(--templeteClr);
+    color: #ffffff;
+    border: none;
+}
+
+.btnSecondary2:hover {
+    padding: 9px 29px 9px 29px !important;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+    border: 1px solid var(--templeteClr);
+}
+
+.hotProcessInner h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    color: var(--templeteClr);
+}
+
+.hotProcessInner p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7D7D7D;
+}
+
+.hotProcess {
+    display: none;
+}
+
+.mainDew {
+    display: block;
+}
+
+.hideImage , .hideImage2 , .hideImage3 , .hideImage4 {
+    display: none;
+}
+
+.hideoutHeader {
+    display: block;
+}
+
+.processImage2 {
+    display: block;
+}
+
+.goOnBtn {
+    display: flex !important;
+}
+
+.peraSet {
+    margin: 2% 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .hotProcess {
+        display: block;
+    }
+
+    .mainDew {
+        display: none;
+    }
+
+    .hideoutHeader {
+        display: none;
+    }
+
+    .hideImage {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../images/procees1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 305px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .hideImage h3 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .hideImage h4 {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+
+
+    .hideImage2 {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../images/process2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 305px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .hideImage3 {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../images/process3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 305px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .hideImage4 {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../images/process4.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 305px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .hideImage2 h3 , .hideImage h3 , .hideImage3 h3 , .hideImage4 h3 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .hideImage2 h4 , .hideImage h4 , .hideImage3 h4 , .hideImage4 h4 {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+
+    .processImage2 {
+        display: none;
+    }
+
+    .goOnBtn {
+        display: none !important;
+    }
+
+    .mainTextProcess h2 {
+        font-family: Poppins;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--templeteClr);
+        width: 70%;
+    }
+
+    .lowereasyText {
+        margin-right: 0%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mainTextProcess h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+
+        color: var(--templeteClr);
+        width: 100%;
+    }
+
+    .hideImage2 h3 , .hideImage h3 , .hideImage3 h3 , .hideImage4 h3 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 32px;
+
+    }
+
+    .hideImage2 h4 , .hideImage h4 , .hideImage3 h4 , .hideImage4 h4  {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+}

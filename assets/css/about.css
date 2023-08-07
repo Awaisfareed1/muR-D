@@ -1,0 +1,325 @@
+.aboutTop {
+    width: 100%;
+    height: 430px;
+    background-image: url("../images/aboutbg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutTop h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #8DBA38;
+
+}
+
+.aboutTop h1 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+
+.aboutTop p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #7D7D7D;
+    padding: 0px 5% 0px 0px;
+}
+
+.aboutProcess h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+
+}
+
+.aboutProcess p {
+    padding: 0px 17% 0px 0px;
+    size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+.mainProcess h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #8DBA38;
+}
+
+.mainProcess h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+    color: var(--templeteClr);
+}
+
+hr {
+    margin: 0.5rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.aboutTopImage {
+    display: none;
+}
+
+.waroomText {
+    margin-left: 90px;
+}
+
+.waroomText h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+
+.waroomText p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #7D7D7D;
+}
+
+.mainblockquite {
+    margin: 20px 0px;
+}
+
+.aboutBlockquite {
+    width: 90%;
+    margin: 10% auto;
+}
+
+.aboutBlockquite h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+    text-align: center;
+}
+
+#about1stImg {
+    display: block;
+}
+
+#about2ndImg {
+    display: none;
+}
+
+.groupAboutText h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+
+.groupAboutText p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #7D7D7D;
+    padding-right: 20%;
+}
+
+.groupCard {
+    width: 205px;
+    height: 205px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInnerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardInnerText img {
+    height: 70px;
+    width: 70px;
+}
+
+.cardInnerText h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: var(--templeteClr);
+}
+.primarybtnActive .nav-link {
+    background: #EEF2FC !important;
+    padding: 10px 24px 10px 24px !important;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    color: var(--templeteClr) !important;
+    border: none;
+}
+
+.main_sec img {
+    margin: 2% 0px;
+    border-radius: 0px !important;
+}
+@media screen and (max-width: 1024px) {
+    .aboutProcess p {
+        padding: 0px 5% 0px 0px;
+
+    }
+
+    hr {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutTop {
+        background-image: url("../images/Group\ 6385.png");
+    }
+
+    .aboutTop p {
+        padding: 0px 0% 0px 0px;
+    }
+
+    .aboutTop p {
+        font-size: 14px;
+    }
+
+    .aboutProcess {
+        margin-bottom: 5%;
+    }
+
+    .aboutProcess p {
+        padding: 0px 0% 0px 0px;
+        font-size: 14px;
+    }
+
+    #about1stImg {
+        display: none;
+    }
+
+    #about2ndImg {
+        display: block;
+    }
+
+    .aboutBlockquite {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    .aboutBlockquite h1 {
+        font-size: 25px;
+    }
+
+    .waroomText {
+        margin-left: 0px;
+    }
+
+    .groupCard {
+        width: 170px;
+        height: 170px;
+    }
+
+    hr {
+        margin: 0.25rem 0;
+    }
+    .groupAboutText p {
+        font-size: 14px;
+        padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mainProcess h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        color: var(--templeteClr);
+    }
+
+    .aboutTop {
+        background: none;
+    }
+
+    .aboutTopImage {
+        display: block;
+    }
+
+    .aboutBlockquite h1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+
+    }
+
+    .groupCard {
+        width: 190px;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .groupCard {
+        width: 150px;
+        height: 150px;
+    }
+
+    .groupCard img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .groupCard {
+        width: 140px;
+        height: 140px;
+    }
+
+    .groupCard img {
+        width: 40px;
+        height: 40px;
+    }
+}
